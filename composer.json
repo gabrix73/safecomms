@@ -1,0 +1,20 @@
+{
+    "name": "victor/safecomms",
+    "description": "SafeComms è un piccolo progetto dimostrativo che mostra come generare ed utilizzare chiavi “usa e getta” (ephemeral) in PHP, senza salvare nulla su disco, per firmare messaggi (con Ed25519) e – opzionalmente – cifrarli.",
+    "type": "project",
+    "require": {
+        "endroid/qr-code": "^4.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Victor\\Safecomms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabx"
+        }
+    ],
+    "minimum-stability": "stable"
+}
